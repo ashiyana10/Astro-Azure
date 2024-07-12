@@ -1,0 +1,11 @@
+---
+import { Signup } from "../components/signup";
+import { msalConfig } from "../components/authConfig";
+import { PublicClientApplication } from "@azure/msal-browser";
+import { MsalProvider } from "@azure/msal-react";
+const msalInstance = new PublicClientApplication(msalConfig);
+---
+
+<MsalProvider instance={msalInstance}><Signup client:load /></MsalProvider>
+
+

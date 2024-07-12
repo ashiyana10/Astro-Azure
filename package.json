@@ -1,0 +1,24 @@
+{
+  "name": "microsoft",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.8.1",
+    "@astrojs/react": "^3.6.0",
+    "@azure/msal-browser": "^3.18.0",
+    "@azure/msal-react": "^2.0.20",
+    "astro": "^4.11.5",
+    "auth-astro": "^4.1.2",
+    "lucia": "^3.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.3"
+  }
+}
